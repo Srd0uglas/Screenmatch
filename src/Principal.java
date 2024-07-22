@@ -7,13 +7,15 @@ public class Principal {
         meuFilme.duracaoEmMinutos = 180;
 
 
+//        exibe o nome e o ano de lançamento do filme do jeito que foi configurado
         meuFilme.exibeFichaTecnica();
 
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
-        System.out.println(meuFilme.somaDasAvaliacoes);
-        System.out.println(meuFilme.totalDeAvaliacoes);
+        System.out.println("Total de Avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.pegaMedia());
+
 
 
 //        Se eu quiser imprimir o nome eu coloco o .Nome
